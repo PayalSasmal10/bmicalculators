@@ -1,0 +1,281 @@
+h1{
+    text-align: center;
+    
+}
+
+.header {
+    background-color: #717fe0;
+    padding: 40px ;
+    color: white;
+
+}
+.qty{
+    text-align: center;
+    width: 500px;
+    display: inline-block;
+}
+.qty .count {
+    color: #717fe0;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    min-width: 35px;
+    text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial, sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 280px;
+
+}
+
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+    position: relative;
+    left: 280px;
+}
+/* div {
+   
+    text-align: center;
+} */
+.minus:hover{
+    background-color: #717fe0 !important;
+}
+.plus:hover{
+    background-color: #717fe0 !important;
+}
+/*Prevent text selection*/
+span{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+.qty input{  
+    border: 0;
+    width: 2%;
+    position: relative;
+    left: 280px;
+}
+.qty input::-webkit-outer-spin-button,
+.qty input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.qty input:disabled{
+    background-color:white;
+}
+
+.qty p {
+    position: relative;
+    left: 280px;
+    padding-top: 13px ;
+}
+         
+/* Icon modification */
+
+.icon {
+    margin: 0% 0.75% 0% 0.5%;
+    padding-top: 20px;
+    cursor: pointer;
+    
+
+    
+}
+.female{
+    color: #717fe0;
+}
+.font-div{
+    text-align: center;
+
+}
+
+
+
+/* Height  */
+.height-div{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 380px;
+    
+}
+.height-div p{
+    padding-top: 13px;
+    position: relative;
+    left: 15px;
+}
+
+.heigt{
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    box-shadow: none;
+    width: 100px;
+    color: #717fe0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Result */
+.result-div{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 690px;
+    bottom: 85px;
+    /* visibility:hidden; */
+    
+}
+
+.result{
+    background: transparent;
+    border:none;
+    border-bottom: 4px solid #19e6e6;
+    outline: none;
+    box-shadow: none;
+    width: 100px;
+    color: #717fe0;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+}
+
+.result-div p{
+    padding-top: 13px;
+    position: relative;
+    left: 20px;
+}
+
+/* Button */
+.btn-bmi {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #717fe0;
+    position: relative;
+    left: 600px;
+    color: white;
+    width: 300px;
+    height: 70px;
+    border: none;
+    border-radius: 2em ;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+/* Progress bar */
+.progress {
+   max-width: 60%; 
+   height: 20px !important;
+   position: relative;
+   left: 330px;
+   text-align: center;
+   color: #fff;
+   font-family:'Courier New', Courier, monospace;
+   font-size: 50px;
+   
+   
+}
+.progress-bar-u{
+    width: 25%;
+    background-color: #FEC260;
+    text-align: center;
+    
+}
+.progress-bar-n{
+    width: 25%;
+    background-color: #19e6e6;
+}
+.progress-bar-ov{
+    width: 25%;
+    background-color: #F29393;
+}
+.progress-bar-ob{
+    width: 25%;
+    background-color: #D61C4E;
+    
+}
+
+/* arrow */
+.arrow{
+    /* border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);*/
+    position: relative;
+    left: 650px; 
+    font-size: 35px;
+    color: #717fe0;
+
+}
+
+
+@media (max-width:400px){
+    h1 {
+        text-align: center;
+        display: block;
+    }
+    .header{
+        background-color: #717fe0;
+        padding: 40px ;
+        color: white;
+    }
+    .qty{
+        text-align: center;
+        width: 5px;
+        display: block;
+    }
+    .qty .count{
+        color: #717fe0;
+        display: block;
+        font-size: 5px;
+        font-weight: 100;
+        line-height: 10px;
+        padding: 0 2px;
+        text-align: center; 
+    }
+    .qty .plus {
+        cursor: pointer;
+        display: block;
+        width: 10px;
+        height: 10px;
+        font: 30px/1 Arial, sans-serif;
+        text-align: center;
+        border-radius: 50%;
+        /* position: relative;
+        left: 10px;
+     */
+    }
+    .qty input{  
+        /* border: 0;
+        width: 2%; */
+        position: relative;
+        right: 10px;
+    }
+}
